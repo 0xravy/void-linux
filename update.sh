@@ -9,7 +9,7 @@ do
 done
 
 
-config_files=("BetterDiscord" "kitty" "neofetch" "nvim" "picom" "rofi" "st" "suckless" "sxhkd" "wallpapers")
+config_files=("BetterDiscord" "kitty" "neofetch" "nvim" "picom" "rofi" "st" "suckless" "sxhkd")
 
 for file in "${config_files[@]}"
 do
