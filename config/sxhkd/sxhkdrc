@@ -1,0 +1,26 @@
+super + Return
+    kitty
+
+super + w
+    firefox
+
+super + e
+    thunar
+
+super + c
+    ~/.bin/search.sh
+
+super + shift + c
+    ~/.bin/recording.sh
+
+super + v
+    code-oss
+
+super + shift + q
+    pkill -KILL dwm
+
+super + s
+    ~/.bin/screen-shot-select.sh
+
+super + shift + s
+    ~/.bin/screen-shot.sh
