@@ -19,12 +19,3 @@ end
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
-
--- vim.cmd("setlocal tabstop=4 shiftwidth=4")
--- vim.cmd("setglobal tabstop=4 shiftwidth=4")
-vim.o.list = true
-vim.o.listchars = "tab:>- ,trail:-,nbsp:+"
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.shiftround = true
-vim.opt.expandtab = false
