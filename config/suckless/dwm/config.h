@@ -21,7 +21,7 @@ static char normbgcolor[]           = "#1a1515";
 static char normbordercolor[]       = "#000000";
 static char normfgcolor[]           = "#bbbbbb";
 static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#478061";
+static char selbordercolor[]        = "#FFE9C7";
 static char selbgcolor[]            = "#2d2424";
 static char *colors[][3] = {
        /*               fg           bg           border   */
@@ -54,7 +54,7 @@ static const Rule rules[] = {
 	{ "Brave-browser",    NULL,         NULL,       	    1 << 0,       0,           0,           0,          -1 },
 	{ "Firefox",          NULL,         NULL,       	    1 << 0,       0,           0,           0,          -1 },
 	{ "discord",          NULL,         NULL,       	    1 << 3,       0,           0,           0,          -1 },
-	{ "Code - OSS",         NULL,         NULL,       	    1 << 2,       0,           0,           0,          -1 },
+	{ "Code - OSS",       NULL,         NULL,       	    1 << 2,       0,           0,           0,          -1 },
 	{ "Screenkey",        NULL,         NULL,       	    0,            1,           0,           0,          -1 },
 	{ "Record",           NULL,         NULL,       	    1 << 4,       0,           0,           0,          -1 },
 	{ TERMCLASS,          NULL,         NULL,       	    0,            0,           1,           0,          -1 },
